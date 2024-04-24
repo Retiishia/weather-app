@@ -71,7 +71,7 @@ const App = () => {
   }, [weather])
 
   return (
-    <div className="bg-white text-2xl font-cat text-text flex-col cursor-default">
+    <div className="bg-base text-2xl font-cat text-text flex-col cursor-default">
       <div className="absolute py-8 left-1/2">
         <div className="relative -left-1/2 text-center">
           <span>Weather App </span>
