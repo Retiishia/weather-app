@@ -30,7 +30,7 @@ const Footer = () => {
             <Switch
               checked={mode}
               onChange={handleToggle}
-              className={`${mode ? "bg-black" : "bg-white"} ${
+              className={`${mode ? "bg-base" : "bg-base"} ${
                 mode ? "dark:bg-surface0" : "dark:bg-surface0"
               } relative inline-flex items-center h-6 rounded-full w-11`}
             >
